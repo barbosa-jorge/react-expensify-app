@@ -23,4 +23,4 @@ const mapDispatchToProps = (dispatch) => ({
     addExpense: (expense) => dispatch(addExpense(expense))
 });
 
-export default connect(mapDispatchToProps)(AddExpensePage);
+export default connect(undefined, mapDispatchToProps)(AddExpensePage);
